@@ -1,0 +1,155 @@
+/* =================carausal css================= */
+.tales {
+    width: 100%;
+  }
+  .carousel-inner{
+    width:100%;
+    max-height: 550px !important;
+  }
+
+/* ==================navbar css================== */
+.my-nav{
+position: sticky;
+top: 0.1px;
+z-index: 2;
+}
+ /* ==============font awesome css============== */
+ 
+.fab{
+  font-size: 1.4em;
+}
+.fa-facebook {
+  color: #3B5998;
+}
+.fa-linkedin {
+  color: #007bb5;
+}
+.fa-instagram {
+  color: #e95950;
+}
+.fa-github{
+  color:#000000;
+}
+.fa-stack-overflow{
+  color: #f48024;
+}
+.fa-twitter {
+  color: #55ACEE;
+}
+
+/* ===============cards(product.html) media query=============== */
+
+@media all and (max-width:1399px){
+
+.my-card{
+  margin-top: 15px!important;
+}
+
+
+}
+@media all and (max-width:1399px) and (min-width:992px){
+  .hiden{
+    display: block!important;
+  }
+} 
+
+/* ===============produc.html h2 media query===============*/
+.heading-h3{
+  border-top:3px solid #6c757d!important;
+  border-bottom:3px solid #6c757d!important;
+  /* 6c757d */
+  display: inline-block;
+  padding: 3px 7px;
+}
+
+@media all and (max-width:768px){
+  .heading-h3{
+    display:flex;
+    justify-content: center;
+    margin: 0px 3.2em;
+    
+  }
+.contact-h3{
+  margin: 0px 1.6em;
+}
+  .dproduct-hr{
+  display: none!important;
+}
+
+
+}
+
+
+/* ===============jumbotron media query=============== */
+
+@media all and (max-width:439px) , (max-width:272px) {
+
+.my-lead,.my-lead1{
+text-align: center;
+margin: 0px 3px 0px 3px;
+
+}
+
+
+}
+
+/* button */
+
+.animation-btn{
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: black!important;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.animation-btn:before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 1;
+  transition: opacity .3s ease-in-out;
+  border-radius: 10px;
+}
+
+.animation-btn:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  color: white;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+
+/* =================Footer================= */
+
+.footer-nav li a{
+  color: grey!important;
+}
+.footer-nav li a:hover{
+color: black!important;
+}

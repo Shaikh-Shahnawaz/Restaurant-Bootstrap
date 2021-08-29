@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Facicon -->
+ <link rel="icon" href="/img/logo4.jpg" type="image/gif" sizes="16x16">
+ <!-- font awesome -->
+ <script src="https://kit.fontawesome.com/284dde0965.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<!-- Actual css -->
+<link rel="stylesheet" href="style.css">
+  <title>Shanu Restaurant</title>
+</head>
+
+<body>
+  <!-- ==========================Navbar========================== -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img src="/img/logo4.jpg" style="border-radius: 50%; margin-right: 1em; cursor: pointer;" width="50px">
+      <a class="navbar-brand" href="base.html">ShanuRestaurant</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/base.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/product.html">Product</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/service-1.html">Service 1</a></li>
+              <li><a class="dropdown-item" href="/service-2.html">Service 2</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-warning" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- ============================ Cards ============================ -->
+
+  <div class="container my-4">
+    <h3 class="mb-3 heading-h3">Our Products</h3>
+    <!-- <div class="container"> -->
+      <hr class="product-hr">
+    <!-- </div> -->
+    
+    <!-- ====First Row==== -->
+    <div class="row d-flex justify-content-around">
+      
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?Pizza" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Pizza</h5>
+          <p class="card-text">Indian cuisine consists of a variety of regional and traditional cuisines native to the
+            Indian subcontinent.
+            content.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card  col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?burger" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Burger</h5>
+          <p class="card-text">Chinese cuisine is an important part of Chinese culture and includes cuisines originating
+            from diverse regions of China.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card  col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?ice cream" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Desert</h5>
+          <p class="card-text">Italian cuisine is a cuisine consisting of ingredients, recipes and cooking techniques
+            developed across the Italian.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?sandwich" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Sandwich</h5>
+          <p class="card-text">The cuisine of Germany is made up of many different regional cuisines, reflecting the
+            country's federal history content.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+
+      <!-- hidden card -->
+
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card d-none hiden" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?indian food" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Indian Cuisine</h5>
+          <p class="card-text">Indian cuisine consists of a variety of regional and traditional cuisines native to the Indian subcontinent. 
+            content.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card d-none hiden" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?german food" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">German Cuisine</h5>
+          <p class="card-text">The cuisine of Germany is made up of many different regional cuisines, reflecting the
+            country's federal history content.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+
+      <!-- hidden card end -->
+
+    </div>
+    <!-- ====Second Row==== -->
+    <div class="row d-flex justify-content-around mt-3">
+      
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?taco" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Mexican Taco</h5>
+          <p class="card-text">Indian cuisine consists of a variety of regional and traditional cuisines native to the
+            Indian subcontinent.
+            content.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card  col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?hakka noodles" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Hakka Noodles</h5>
+          <p class="card-text">Chinese cuisine is an important part of Chinese culture and includes cuisines originating
+            from diverse regions of China.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card  col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?nachos" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Loaded Nachos</h5>
+          <p class="card-text">Italian cuisine is a cuisine consisting of ingredients, recipes and cooking techniques
+            developed across the Italian.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?cake" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Cake</h5>
+          <p class="card-text">The cuisine of Germany is made up of many different regional cuisines, reflecting the
+            country's federal history content.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+
+      <!-- hidden card -->
+
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card d-none hiden" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?german food" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">German Cuisine</h5>
+          <p class="card-text">The cuisine of Germany is made up of many different regional cuisines, reflecting the
+            country's federal history content.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card d-none hiden" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?chinese food" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Chinese Cuisine</h5>
+          <p class="card-text">Chinese cuisine is an important part of Chinese culture and includes cuisines originating from diverse regions of China.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+
+      <!-- hidden card end -->
+
+    </div>
+    <!-- ====Third Row==== -->
+    <div class="row d-flex justify-content-around mt-3">
+      
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?biryani dish" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Biryani</h5>
+          <p class="card-text">Indian cuisine consists of a variety of regional and traditional cuisines native to the
+            Indian subcontinent.
+            content.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card  col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?curry" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Curry</h5>
+          <p class="card-text">Chinese cuisine is an important part of Chinese culture and includes cuisines originating
+            from diverse regions of China.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card  col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?lolipop dish" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Chicken Lolipop</h5>
+          <p class="card-text">Italian cuisine is a cuisine consisting of ingredients, recipes and cooking techniques
+            developed across the Italian.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?fish dish" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Sea Food</h5>
+          <p class="card-text">The cuisine of Germany is made up of many different regional cuisines, reflecting the
+            country's federal history content.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+
+      <!-- hidden card -->
+
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card d-none hiden" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?italian food" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">Italian Cuisine</h5>
+          <p class="card-text">Italian cuisine is a cuisine consisting of ingredients, recipes and cooking techniques developed across the Italian.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-3 col-sm-12 bg-light my-card d-none hiden" style="width: 20rem;">
+        <img src="https://source.unsplash.com/1600x900/?german food" class="card-img-top mt-2">
+        <div class="card-body">
+          <h5 class="card-title">German Cuisine</h5>
+          <p class="card-text">The cuisine of Germany is made up of many different regional cuisines, reflecting the
+            country's federal history content.</p>
+          <span>
+            <a href="#" style="max-width:5rem" class="btn btn-outline-dark">View</a>
+            <a href="#" style="max-width:7rem" class="btn btn-dark">Order Now</a>
+          </span>
+        </div>
+      </div>
+
+      <!-- hidden card end -->
+
+    </div>
+
+  </div>
+
+  <!-- ========================footer======================== -->
+
+  <footer class="container-fluid bg-light ">
+   
+    <div class="row pt-3 ps-2">
+      <div class="col-lg-6 col-md-6 col-12  text-center pt-2">
+          <h5>About Shanu Restaurant</h5>
+          <p>Shanu's Restaurant Providing food and drink services to guests in hotels and restaurants, showing attentiveness, and understanding of their needs and expectations.
+          </p>
+          <abbr title="twitter"><a href="https://twitter.com/ShaikhS78196343" target="_blank"><i
+                class="fab fa-twitter i-color mr-3"></i></a></abbr> &nbsp; &nbsp;
+          <abbr title="facebook"><a href="https://www.facebook.com/profile.php?id=100030898398832" target="_blank"><i
+                class="fab fa-facebook i-color mr-3"></i></a></abbr> &nbsp; &nbsp;
+
+          <abbr title="instagram"> <a href="https://www.instagram.com/__shah_nawaz__/" target="_blank"><i
+                class="fab fa-instagram i-color mr-3"></i></a></abbr> &nbsp; &nbsp;
+
+          <abbr title="linkedIn"> <a href="https://www.linkedin.com/in/shaikh-shahnawaz-9149601b5/" target="_blank"><i
+                class="fab fa-linkedin i-color mr-3"></i></a></abbr> &nbsp; &nbsp;
+
+          <abbr title="github"> <a href="https://github.com/Shaikh-Shahnawaz" target="_blank"><i
+                class="fab fa-github i-color mr-3"></i></a></abbr> &nbsp; &nbsp;
+
+          <abbr title="stackoverflow"> <a href="https://stackoverflow.com/users/14162052/shaikh-shahnawaz"
+              target="_blank"><i class="fab fa-stack-overflow i-color mr-3 "></i></a></abbr>
+       
+      </div>
+      <div class="col-lg-6 col-md-6 col-12 text-center footer-nav pt-2">
+       
+          <h5>Navigation Links</h5>
+       
+            <li style="list-style: none;"><a href="/base.html" >Home</a></li>
+            <li style="list-style: none;"><a href="/product.html" >Product</a></li>
+            <li style="list-style: none;"><a href="/service-1.html" >Services</a></li>
+            <li style="list-style: none;"><a href="/contact.html" >Contact Us</a></li>
+          
+       
+      </div>
+
+    </div>
+    <hr color="white">
+    <div class=" pb-1 text-center">
+      <p>Copyright &#169;2021 All rights reserved | This template is made with 💖 by <span style="font-weight: bold; cursor: pointer; color: #dc3545;">
+          ShanuTech
+        </span>
+      </p>
+    </div>
+
+    
+    </div>
+
+  </footer>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
