@@ -51,13 +51,21 @@ z-index: 2;
   .hiden{
     display: block!important;
   }
-} 
+}
 
-/* ===============produc.html h2 media query===============*/
+@media all and (max-width:767px) and (min-width:540px){
+  .my-card{
+    max-width: 16.8rem!important;
+  }
+}
+
+/* =============== for h3-tag media query===============*/
+
+
+
 .heading-h3{
   border-top:3px solid #6c757d!important;
   border-bottom:3px solid #6c757d!important;
-  /* 6c757d */
   display: inline-block;
   padding: 3px 7px;
 }
@@ -72,12 +80,31 @@ z-index: 2;
 .contact-h3{
   margin: 0px 1.6em;
 }
-  .dproduct-hr{
+.srvice2-h3{
+  margin: 0px 1.6em;
+}
+  .product-hr{
   display: none!important;
 }
 
 
 }
+
+/* =============== service-1 media query===============*/
+
+@media all and (max-width:991px){
+
+.service-card{
+ padding-left: 2.3em;
+ padding-right: 1.5em;
+/* border: 1px solid rebeccapurple; */
+}
+
+
+}
+
+
+
 
 
 /* ===============jumbotron media query=============== */
